@@ -22,3 +22,11 @@
   168  history | tail
   169  history 
   170  history | tail -15 >> README.md
+
+1. basic
+2. github exercises
+# hello text
+* some bullet points here
+## hello
+### hello
+text body
