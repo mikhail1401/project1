@@ -30,3 +30,33 @@
 ## hello
 ### hello
 text body
+
+## Take aways from git sessions
+* local
+- create a git repository: create a folder, initialize git (tracking)
+''' git init
+# add some files (text, python etc.) or update, add all file to tracking system (git)
+git add.
+git commit -m 'meaningdule message that summirezes your changes'
+# if you want to publish: create repo in github, copy the url that ends with .git
+get set-upstream origin url
+git push 
+
+# add files to '.gitignore' exclude from tracking and publishing to the cloud repository
+cat >> .gitignore
+data/
+mynotes.txt
+
+# publish ignoring mentoined files or directories
+git push
+
+* Branching
+- git branch # list all existing branches
+- git branch newbranch # create a new branch and not switching
+- git checkout - b newbranch # creating and switching to new branch
+- git checkout branch # switching to existing branch
+
+* Working with github
+- git clone url.git # clone brand new project from the cloud
+- git push # publish the changes from your local to cloud
+- git pull # get the updates from cloud repository
