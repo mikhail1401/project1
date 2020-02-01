@@ -60,3 +60,27 @@ git push
 - git clone url.git # clone brand new project from the cloud
 - git push # publish the changes from your local to cloud
 - git pull # get the updates from cloud repository
+
+## Working with class file, get updates and make changes in your branch
+1. clone the repository from asotools
+'''
+git clone <url>
+cd newrepo
+git checkout -b 'yourbranch'
+'''
+2. make changes in your repository, local changes.
+3. Go to your github account, create a new repository to save YOUR changes
+4. Get the URL of that repositry from GitHub
+5. Set the your branch upstream to your GitHub repository that you just created.
+'''
+git push --set-upstream <url from your github repository>
+'''
+6. To get the updated from asotoolsny repository, switch to master branch and then git push
+'''
+git checkout master
+git pull
+'''
+7. To get new changes from updated master to your branch:
+'''
+git rebase master
+'''
