@@ -84,3 +84,4 @@ git pull
 '''
 git rebase master
 '''
+  testing pull command
